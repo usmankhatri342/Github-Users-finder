@@ -1,6 +1,7 @@
 const form = document.querySelector("#form");
 const mainDiv = document.querySelector("#divOne");
 const messageDiv = document.querySelector("#message");
+// const User = document.querySelector(".userImg");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
