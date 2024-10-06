@@ -2,7 +2,7 @@ body {
     width: 50%;
     background-color: #242731;
     color: #1f9692;
-    border: 1px solid;
+   
     text-align: center;
     display: inline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -81,10 +81,10 @@ button {
         /* width: 100%; */
         background-color: #242731;
         color: #1f9692;
-        border: 1px solid;
+        /* border: 1px solid; */
         text-align: center;
         display: inline;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: cursive;
     }
     
     h1 {
@@ -148,12 +148,12 @@ button {
         border-radius: 5px;
         position: relative;
         bottom: -10px;
-        left: -125PX;
+        left: -115PX;
     }
     #form>h4 {
         position: relative;
         bottom: 110px;
-        left: -110PX;
+        left: -100PX;
     }
     #divOne>a{
         border: 1px solid #1f9692 ;
