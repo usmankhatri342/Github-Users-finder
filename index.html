@@ -3,37 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find GitHub User</title>
     <link rel="stylesheet" href="style.css">
+    <title>Find GitHub User</title>
   </head>
   <body>
-
-    <h1>let's Find GitHub User </h1>
-
+    <h1>let's Find GitHub User</h1>
 
     <form id="form">
-     
-      <input type="text" placeholder="     enter your username" /><br /><br />
-      <button >Find</button>
-      <h4 class="username" >UserName </h4>
+      <input type="text" placeholder=" Enter User Name"  />
+      <button type="submit">Get Data</button>
     </form>
-<br />
 
     <p id="message"></p>
 
-
-    <div id="divOne">
-     <img src="img/vector-sign-of-user-icon.jpg" alt="" class="userImg" width="200px" height="200px">
-
-      
-
-      <p></p>
-
-      <a href="" >profile </a>
+    <div id="main-div">
+      <img src="" alt="" width="" height="" />
+      <p id="name" class="name"></p>
+      <p id="repos" class="repos">Public repos: 0</p>
+      <a id="profile-link" href="#" target="_blank">Profile</a>
     </div>
-
-    <br />
-
+      
     <h1>see github user profile here.</h1>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

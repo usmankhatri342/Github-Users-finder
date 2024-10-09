@@ -1,39 +1,33 @@
 const form = document.querySelector("#form");
-const mainDiv = document.querySelector("#divOne");
+const mainDiv = document.querySelector("#main-div");
 const messageDiv = document.querySelector("#message");
-// const User = document.querySelector(".userImg");
+const imgTag = mainDiv.querySelector("img");
+const name = mainDiv.querySelector("#name");
+const repos = mainDiv.querySelector("#repos");
+const link = mainDiv.querySelector("#profile-link");
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
-  const imgTag = divOne.children[0];
-  const name = divOne.children[1];
-  const repos = divOne.children[2];
-  const link = divOne.children[3];
-
-  const value = event.target.children[0].value;
-  const API_URI = `https://api.github.com/users/${value}`;
+  const username = event.target.children[0].value;
+  const API_URI = `https://api.github.com/users/${username}`;
 
   try {
-    const response = await axios(API_URI);
-
-    console.log(response);
+    const response = await axios.get(API_URI);
 
     imgTag.src = response.data.avatar_url;
-    name.innerText = response.data.name;
-    repos.innerText = `public repos: ${response.data.public_repos}`;
+    name.innerText = response.data.name || "No name available";
+    repos.innerText = `Public repos: ${response.data.public_repos}`;
     link.href = response.data.html_url;
+    link.innerText = "GitHub Profile";
+
+    messageDiv.innerText = "";
+    mainDiv.style.display = "block"; 
+
   } catch (err) {
     console.log(err.response.data.message);
 
     messageDiv.innerText = err.response.data.message;
-
-    imgTag.src = "";
-    name.innerText = "";
-    repos.innerText = "";
-    link.href = "";
+    mainDiv.style.display = "none"; 
   }
-  //   console.log("form is being submitted", value);
 });
-
-
