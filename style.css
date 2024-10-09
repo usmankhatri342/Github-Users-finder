@@ -65,156 +65,76 @@ button {
     position: relative;
     top: 15px;
  } 
-/* 
-#form>username {
-    position: relative;
-    right: 25px;
-    bottom: 250px;
-}
 
-#form {
-    font-size: px;
-    width: 50%;
-    height: 75px;
-    position: relative;
-    left: 310px;
-    top: -25px;
-    padding: 60px;
-    background-color: #282a31;
-    border-radius: 25px; */
-    /* border: 2px solid red; */
-    
-/* 
- }
-
-#form>input {
-    font-size: 20px;
-    width: 470px;
-    height: 35px;
-    background-color: transparent;
-    border: 2px solid #1f9692;
-    border-radius: 5px;
-    color: #1f9692;
-    position: relative;
-    top: -55px;
-
-}
-
-#form>button {
-    width: 70px;
-    height: 30px;
-    background-color: transparent;
-    border: 2px solid #1f9692;
-    color: #1f9692;
-    border-radius: 5px;
-    position: relative;
-    top: 10px;
-    right: 480px;
-}   */
-/* #form>h4 {
-    position: relative;
-    bottom: 135px;
-} */
-/* #main-div>a{
-   border: 1px solid #1f9692 ;
-   text-decoration: none;
-   color: #1f9692;
-   background-color: transparent;
-   padding: 7px;
-   border-radius: 5px;
-   position: relative;
-   top: 15px;
-}
 
 @media only screen and (max-width: 768px) {
 
-    body { */
-        /* width: 100%; */
-        /* background-color: #242731;
+
+    body{
+        width: 100%;
+        background-color: #242731;
         color: #1f9692;
-        /* border: 1px solid; */
-        /* text-align: center;
+        text-align: center;
         display: inline;
-        font-family: cursive;
-    } */ 
-    
-    /* h1 {
-        font-size: 25px;
-    } */
-    
-    /* button {
-      position: relative;
-      left: -160PX;
-      width: 40PX;
-     } */
-    
-    /* .username {
-        margin: auto;
-         position: relative;
-        right: 195px;
-    } */
-    
-    /* #form {
-        width: 75%;
-        font-size: px;
-        /* width: 100%; */
-        /* height: 75px;
-        
-        position: relative;
-        left: 15px;
-        top: 15px; */ 
-        
-        /* position: relative;
-        left: 310px;
-        top: -25px;
-        padding: 60px;
-        background-color: #282a31;
-        border-radius: 25px; */
-        /* border: 2px solid red; */
-        
-    
-    /* } */
-/*     
-    #form>input {
-        width: 300px;
-        height: 30px; */
-        /* font-size: 20px;
-        width: 470px;
-        height: 35px;
-        background-color: transparent;
-        border: 1px solid #1f9692;
-        border-radius: 5px;
-        color: #1f9692;
-        position: relative;
-        bottom: -10px; */
-    
-    /* }
-    
-    #form>button {
-        width: 50px; */
-        /* height: 30px;
-        background-color: transparent;
-        border: 1px solid #1f9692;
-        color: #1f9692;
-        border-radius: 5px;
-        position: relative;
-        bottom: -10px;
-        left: -115PX;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #form>h4 {
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    button {
         position: relative;
-        bottom: 110px;
-        left: -100PX;
-    } */
-    /* #divOne>a{
-        border: 1px solid #1f9692 ;
+        right: 205px;
+    }
+    #form {
+        font-size: px;
+        width: 72%;
+        height: 50px;
+        position: relative;
+        left: 10px;
+        padding: 60px;
+        background-color: #38393d ;
+        border-radius: 25px; 
+      
+        }
+        #form>input {
+            font-size: 20px;
+            width: 325px;
+            height: 30px;
+            background-color: transparent;
+            border: 2px solid #1f9692;
+            border-radius: 5px;
+            color: #1f9692;
+            position: relative;
+           top: -10px;
+            
+        
+        }
+        #form>button {
+            width: 70px;
+            height: 30px;
+            background-color: transparent;
+            border: 2px solid #1f9692;
+            color: #1f9692;
+            border-radius: 5px;
+            position: relative;
+            top: 3px;
+            right: 125px;
+        } 
+      
+     #form>h4 {
+        position: relative;
+        bottom: 135px;
+    }
+    #main-div>a{
+        border: 2px solid #1f9692 ;
         text-decoration: none;
         color: #1f9692;
         background-color: transparent;
         padding: 7px;
         border-radius: 5px;
         position: relative;
-        top: 15px;
-     }
-    
-  }   */
+        top: px;
+     } 
+}
