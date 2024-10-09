@@ -93,6 +93,7 @@ button {
         height: 50px;
         position: relative;
         left: 10px;
+        top: 20px;
         padding: 60px;
         background-color: #38393d ;
         border-radius: 25px; 
@@ -107,7 +108,8 @@ button {
             border-radius: 5px;
             color: #1f9692;
             position: relative;
-           top: -10px;
+           top: -15px;
+           right: 25px;
             
         
         }
@@ -120,7 +122,7 @@ button {
             border-radius: 5px;
             position: relative;
             top: 3px;
-            right: 125px;
+            right: 25px;
         } 
       
      #form>h4 {
